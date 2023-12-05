@@ -3,6 +3,7 @@
   <Home />
   <AboutMe />
   <Career />
+  <Experience />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import Navigation from '@/components/Navigation.vue'
 import Home from '@/components/Home.vue'
 import AboutMe from "@/components/AboutMe.vue"
 import Career from "@/components/Career.vue";
+import Experience from "@/components/Experience.vue";
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     AboutMe,
     Navigation,
     Home,
-    Career
+    Career,
+    Experience
   }
 }
 </script>
