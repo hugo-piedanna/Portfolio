@@ -1,0 +1,19 @@
+# Dossiers et fichiers à ignorer pour un projet Vue.js
+
+# Fichiers système
+.DS_Store
+
+# Dossiers générés par npm / yarn
+/node_modules
+
+# Fichiers de build
+/dist
+/build
+
+# Fichiers logs
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Fichiers spécifiques à IntelliJ
+/.idea
