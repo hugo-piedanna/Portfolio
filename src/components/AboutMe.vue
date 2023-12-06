@@ -1,20 +1,22 @@
 <template>
-<div id="aboutMe">
-  <img id="img_header" src="../assets/transition.svg">
-  <div>
-    <h1 class="bold">A PROPOS</h1>
-    <div id="content">
-      <div id="image-container">
-        <img id="picture" src="../assets/logo.png">
+  <div id="wrapper">
+    <img id="img_header" src="../assets/transition.svg">
+    <div id="aboutMe">
+      <div id="title">
+        <h1 class="bold">A PROPOS</h1>
       </div>
-      <div id="text-container">
-        <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques et les activités manuelles. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. </p>
-        <a href="#" id="btn_cv">Mon CV</a>
+      <div id="content">
+        <div id="image-container">
+          <img id="picture" src="../assets/logo.png">
+        </div>
+        <div id="text-container">
+          <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques et les activités manuelles. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. </p>
+          <a href="#" id="btn_cv">Mon CV</a>
+        </div>
       </div>
     </div>
+    <img id="img_footer" src="../assets/transition.svg">
   </div>
-  <img id="img_footer" src="../assets/transition.svg">
-</div>
 
 </template>
 
@@ -32,25 +34,23 @@ export default {
 
 img{
   background-color: transparent;
+  width: 100%;
 }
 
-#aboutMe{
-  background-color: #001220;
+#wrapper{
   display: flex;
   flex-direction: column;
+  background-color: #001220;
 }
 
 #img_header{
   background-color: transparent;
+  margin-top: 5vw;
+  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 h1{
   font-size: 6vw;
-}
-
-img{
-  width: 100%;
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 #content{
@@ -67,6 +67,7 @@ img{
   margin-right: 5vw;
   text-align: justify;
   line-height: 3vw;
+  padding: 1vw;
 }
 
 #image-container{
@@ -74,8 +75,8 @@ img{
 }
 
 #picture{
-  height: 90%;
-  width: auto;
+  height: auto;
+  width: 90%;
 }
 
 p{
@@ -93,6 +94,8 @@ p{
 
 #img_footer{
   transform: rotate(180deg);
+  margin-bottom: 5vw;
+  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 </style>
