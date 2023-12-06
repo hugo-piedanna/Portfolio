@@ -2,8 +2,9 @@
   <Navigation />
   <Home />
   <AboutMe />
-  <Career />
+  <Skills />
   <Experience />
+  <Career />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Home from '@/components/Home.vue'
 import AboutMe from "@/components/AboutMe.vue"
 import Career from "@/components/Career.vue";
 import Experience from "@/components/Experience.vue";
+import Skills from "@/components/Skills.vue";
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     Navigation,
     Home,
     Career,
-    Experience
+    Experience,
+    Skills
   }
 }
 </script>

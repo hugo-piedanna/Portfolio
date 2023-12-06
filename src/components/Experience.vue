@@ -126,11 +126,13 @@ a{
 h1{
   font-size: 6vw;
   background-color: #C62368;
+  margin-left: 5vw;
 }
 
 #img_footer{
   transform: rotate(180deg);
   filter: drop-shadow(0 -6mm 0.75rem #C62368);
+  margin-bottom: 5vw;
 }
 
 </style>
