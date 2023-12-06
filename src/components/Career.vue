@@ -93,6 +93,9 @@ h1{
   display: flex;
   margin-bottom: 64px;
   width: 100%;
+  height: 4vw;
+  padding-top: 1vw;
+  overflow-y: hidden;
 }
 
 .timeline-item:first-child .timeline-item-details{

@@ -46,6 +46,7 @@ export default {
   margin: 0;
   padding: 0;
   font-size: 2vw;
+  overflow-x: hidden;
 }
 
 .bold{
