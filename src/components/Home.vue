@@ -42,5 +42,6 @@ video{
 h1{
   font-size: 7vw;
   line-height: 10vw;
+  margin-left: 5vw;
 }
 </style>
