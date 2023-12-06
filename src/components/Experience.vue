@@ -60,10 +60,24 @@ img{
 .item{
   width: 20%;
   text-align: center;
-  margin: 1vw;
   border-radius: 1vw;
   background-color: #F97167;
   filter: drop-shadow(0 0 0.75rem crimson);
+  transition: rotate .3s;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.item:first-child{
+  margin-left: 5vw;
+}
+
+.item:last-child{
+  margin-right: 5vw;
+}
+
+.item:hover{
+  transform: rotate(5deg);
 }
 
 p{
@@ -111,7 +125,6 @@ a{
 
 h1{
   font-size: 6vw;
-  margin-bottom: 5vw;
   background-color: #C62368;
 }
 
