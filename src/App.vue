@@ -5,6 +5,7 @@
   <Skills />
   <Experience />
   <Career />
+  <Footer />
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import AboutMe from "@/components/AboutMe.vue"
 import Career from "@/components/Career.vue";
 import Experience from "@/components/Experience.vue";
 import Skills from "@/components/Skills.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     Home,
     Career,
     Experience,
-    Skills
+    Skills,
+    Footer
   }
 }
 </script>
