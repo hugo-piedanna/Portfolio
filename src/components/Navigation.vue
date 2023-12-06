@@ -32,7 +32,7 @@ a:hover{
 
 li{
   display: inline;
-  padding: 13px;
+  padding-right: 26px;
 }
 
 </style>
