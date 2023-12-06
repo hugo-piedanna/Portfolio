@@ -7,14 +7,14 @@
       <section class="item">
         <img src="../assets/inovancy.svg">
         <div>
-          <p>Inovancy est une structure. Ce projet m’a permis de développer mes compétences en WEB et en application.</p>
+          <p>Inovancy est un projet fondé avec un ami. Ce projet m'a beaucoup appris en développement WEB et d'application.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
       <section class="item">
         <img src="../assets/assuromieux.svg">
         <div>
-          <p>ASSUROMIEUX est un cabinet de courtage en assurance. Lors de ce stage j’ai appris l’utilisation de Laravel</p>
+          <p>ASSUROMIEUX est un cabinet de courtage en assurance. Lors de ce stage j’ai appris l’utilisation de Laravel.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
@@ -63,16 +63,18 @@ img{
   margin: 1vw;
   border-radius: 1vw;
   background-color: #F97167;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 p{
   text-align: justify;
+  line-height: 1.8vw;
   padding-right: 2vw;
   padding-left: 2vw;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   background-color: #F97167;
   margin-bottom: 5px;
-  height: 13vw;
+  height: 15vw;
 }
 
 a{
@@ -106,7 +108,6 @@ a{
   margin-top: 5vw;
   filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
-
 
 h1{
   font-size: 6vw;
