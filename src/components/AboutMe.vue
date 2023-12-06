@@ -7,7 +7,7 @@
       </div>
       <div id="content">
         <div id="image-container">
-          <img id="picture" src="../assets/logo.png">
+          <img id="picture" src="../assets/avatar.jpeg">
         </div>
         <div id="text-container">
           <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques et les activités manuelles. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. </p>
@@ -78,6 +78,7 @@ h1{
 #picture{
   height: auto;
   width: 90%;
+  border-radius: 50%;
 }
 
 p{

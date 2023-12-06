@@ -17,7 +17,11 @@
           <li>Vue</li>
           <li>Spring</li>
           <li>Express</li>
+          <li>JQuery</li>
+          <li>Ajax</li>
           <li>Socket.io / WebSocket</li>
+          <li>Bootstrap</li>
+          <li>Tailwind</li>
           <li class="subTitle bold">Base de données</li>
           <li>SQL</li>
           <li>Neo4J</li>
