@@ -1,7 +1,7 @@
 <template>
-<div id="experience">
+<div id="wrapper">
   <img id="img_header" src="../assets/transition.svg">
-  <div id="content">
+  <div id="experience">
     <h1>EXPERIENCE</h1>
     <div id="experiences">
       <section class="item">
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style scoped>
-#content{
+#experience{
   background-color: #C62368;
 }
 
@@ -47,7 +47,7 @@ img{
   background-color: transparent;
 }
 
-#experience{
+#wrapper{
   display: flex;
   flex-direction: column;
 }
