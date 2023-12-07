@@ -15,18 +15,21 @@
           <li class="subTitle bold">Framework / librairies</li>
           <li>Laravel</li>
           <li>Vue</li>
-          <li>Spring</li>
+          <li>Angular</li>
           <li>Express</li>
           <li>JQuery</li>
           <li>Ajax</li>
+          <li>Spring</li>
           <li>Socket.io / WebSocket</li>
           <li>Bootstrap</li>
           <li>Tailwind</li>
-          <li class="subTitle bold">Base de données</li>
+          <li class="subTitle bold">Base de données / ORM</li>
           <li>SQL</li>
           <li>Neo4J</li>
           <li>MongoDB</li>
           <li>Redis</li>
+          <li>Hibernate</li>
+          <li>Eloquent</li>
         </ul>
       </div>
       <div id="softSkills">
