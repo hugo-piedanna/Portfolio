@@ -63,7 +63,7 @@ img{
   border-radius: 1vw;
   background-color: #F97167;
   filter: drop-shadow(0 0 0.75rem crimson);
-  transition: rotate .3s;
+  transition: transform .3s;
   margin-top: 5vw;
   margin-bottom: 5vw;
 }

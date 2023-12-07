@@ -1,11 +1,20 @@
 <template>
-  <Navigation />
-  <Home />
-  <AboutMe />
-  <Skills />
-  <Experience />
-  <Career />
-  <Footer />
+  <header>
+    <Navigation />
+  </header>
+  <main>
+    <Home />
+    <AboutMe />
+    <Skills />
+    <Experience />
+    <Career />
+    <button v-show="showScrollButton" @click="scrollToTop" class="scroll-top-btn">
+      <font-awesome-icon :icon="arrowUpIcon" />
+    </button>
+  </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <script>
@@ -16,9 +25,40 @@ import Career from "@/components/Career.vue";
 import Experience from "@/components/Experience.vue";
 import Skills from "@/components/Skills.vue";
 import Footer from "@/components/Footer.vue";
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
 
 export default {
+
   name: 'App',
+  data() {
+    return {
+      showScrollButton: false,
+      arrowUpIcon: faArrowUp,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll(); // Appel initial pour vérifier la position au chargement
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+      // Vous pouvez ajuster la valeur (par exemple, 200) pour déterminer quand afficher le bouton
+      this.showScrollButton = scrollPosition > 200;
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  },
   components: {
     AboutMe,
     Navigation,
@@ -26,7 +66,8 @@ export default {
     Career,
     Experience,
     Skills,
-    Footer
+    Footer,
+    FontAwesomeIcon
   }
 }
 </script>
@@ -57,5 +98,25 @@ export default {
 
 .bold{
   font-family: "Codec Pro Bold", "Codec Pro", Avenir, Helvetica, Arial, sans-serif;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  padding: 1vw;
+  height: 4vw;
+  width: 4vw;
+  overflow: hidden;
+  border: hidden;
+  border-radius: 50%;
+  opacity: 0.5;
+  filter: drop-shadow(0 0 0.75rem black);
+  transition: transform 0.3s;
+}
+
+.scroll-top-btn:hover{
+  transform: scale(1.1);
 }
 </style>
