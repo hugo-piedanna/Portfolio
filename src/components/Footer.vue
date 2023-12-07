@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <img id="img_header" src="../assets/transition.svg">
+    <img id="img_header" src="../assets/Images/transition.svg">
     <div id="footer">
       <div id="name">
         <h1>Hugo PIEDANNA</h1>

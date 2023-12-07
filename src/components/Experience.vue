@@ -1,25 +1,25 @@
 <template>
 <div id="wrapper">
-  <img id="img_header" src="../assets/transition.svg">
+  <img id="img_header" src="../assets/Images/transition.svg">
   <div id="experience">
     <h1>EXPERIENCE</h1>
     <div id="experiences">
       <section class="item">
-        <img src="../assets/inovancy.svg">
+        <img src="../assets/Images/inovancy.svg">
         <div>
           <p>Inovancy est un projet fondé avec un ami. Ce projet m'a beaucoup appris en développement WEB et d'application.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
       <section class="item">
-        <img src="../assets/assuromieux.svg">
+        <img src="../assets/Images/assuromieux.svg">
         <div>
           <p>ASSUROMIEUX est un cabinet de courtage en assurance. Lors de ce stage j’ai appris l’utilisation de Laravel.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
       <section class="item">
-        <img src="../assets/cegedim.svg">
+        <img src="../assets/Images/cegedim.svg">
         <div>
           <p>Cegedim est un entreprise qui développe des logiciels pour des mutuelles. Durant mon alternance j’ai appris l’angular et spring. </p>
           <a>En savoir plus ...</a>
@@ -27,7 +27,7 @@
       </section>
     </div>
   </div>
-  <img id="img_footer" src="../assets/transition.svg">
+  <img id="img_footer" src="../assets/Images/transition.svg">
 </div>
 </template>
 

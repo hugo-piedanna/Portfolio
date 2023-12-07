@@ -1,13 +1,13 @@
 <template>
   <div id="wrapper">
-    <img id="img_header" src="../assets/transition.svg">
+    <img id="img_header" src="../assets/Images/transition.svg">
     <div id="aboutMe">
       <div id="title">
         <h1 class="bold">A PROPOS</h1>
       </div>
       <div id="content">
         <div id="image-container">
-          <img id="picture" src="../assets/avatar.jpeg">
+          <img id="picture" src="../assets/Images/avatar.jpeg">
         </div>
         <div id="text-container">
           <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques et les activités manuelles. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. </p>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <img id="img_footer" src="../assets/transition.svg">
+    <img id="img_footer" src="../assets/Images/transition.svg">
   </div>
 
 </template>

@@ -23,7 +23,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8vw;
+  margin-top: 5vw;
   margin-bottom: 8vw;
 }
 
