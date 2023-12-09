@@ -29,8 +29,8 @@ jobs:
       - name: Deploy to server
         uses: easingthemes/ssh-deploy@v2
         with:
-          server: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local: 'dist'
-          remote: '/httpdocs'
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
+          REMOTE_PORT: ${{ secrets.SSH_PRIVATE_KEY }}
+          SOURCE: 'dist'
+          TARGET: '/httpdocs'
