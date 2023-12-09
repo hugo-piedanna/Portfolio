@@ -25,3 +25,12 @@ jobs:
 
       - name: Build and test
         run: npm run build
+      
+      - name: Deploy to server
+        uses: easingthemes/ssh-deploy@v2
+        with:
+          server: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local: 'dist'
+          remote: '/httpdocs'
