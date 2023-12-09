@@ -32,5 +32,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
           REMOTE_PORT: ${{ secrets.SSH_PRIVATE_KEY }}
-          SOURCE: 'dist'
-          TARGET: '/httpdocs'
+          SOURCE: 'dist/'
+          TARGET: 'httpdocs/'
