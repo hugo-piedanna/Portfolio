@@ -27,10 +27,13 @@ jobs:
         run: npm run build
       
       - name: Deploy to server
-        uses: easingthemes/ssh-deploy@v2
+        uses: appleboy/ssh-action@v2
         with:
-          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
-          REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
-          REMOTE_PORT: ${{ secrets.SSH_PRIVATE_KEY }}
-          SOURCE: 'dist/'
-          TARGET: 'httpdocs/'
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          port: 22 # Port SSH par défaut (modifiable selon votre configuration)
+          script: |
+            cd httpdocs
+            rm -rf * # Supprime tous les fichiers existants dans le dossier cible
+            cp -r $GITHUB_WORKSPACE/dist/* ./httpdocs # Copie les fichiers générés vers le serveur
