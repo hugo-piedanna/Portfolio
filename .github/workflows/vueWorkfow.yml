@@ -25,12 +25,3 @@ jobs:
 
       - name: Build and test
         run: npm run build
-      
-      - name: Deploy to Plesk
-        uses: plesk/deploy-plesk-action@v1
-        with:
-          plesk-host: ${{ secrets.SERVER_HOST }}
-          plesk-username: ${{ secrets.SERVER_USERNAME }}
-          plesk-password: ${{ secrets.SERVER_PASSWORD }}
-          source-directory: dist  # Dossier de build de Vue.js
-          target-directory: httpdocs  # Dossier de déploiement sur Plesk
