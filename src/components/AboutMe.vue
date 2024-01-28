@@ -1,7 +1,7 @@
 <template>
   <div id="wrapper">
     <img id="img_header" src="../assets/Images/transition.svg">
-    <div id="aboutMe">
+    <div class="section" id="aboutMe">
       <div id="title">
         <h1 class="bold">A PROPOS</h1>
       </div>
@@ -66,7 +66,6 @@ h1{
 #text-container{
   flex: 2;
   margin-right: 5vw;
-  text-align: justify;
   line-height: 3vw;
   padding: 1vw;
 }

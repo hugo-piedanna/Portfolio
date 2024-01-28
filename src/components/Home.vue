@@ -1,5 +1,5 @@
 <template>
-  <section id="container">
+  <section class="section" id="home">
     <div class="left">
       <h1 class="bold">Hugo PIEDANNA</h1>
     </div>
@@ -19,11 +19,11 @@ export default {
 
 <style scoped>
 
-#container {
+#home {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5vw;
+  padding-top: 10vw;
   margin-bottom: 8vw;
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <div id="career">
+  <div class="section" id="career">
     <h1 class="bold">Parcours</h1>
 
     <div class="timeline">

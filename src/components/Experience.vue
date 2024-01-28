@@ -1,7 +1,7 @@
 <template>
 <div id="wrapper">
   <img id="img_header" src="../assets/Images/transition.svg">
-  <div id="experience">
+  <div class="section" id="experience">
     <h1>EXPERIENCE</h1>
     <div id="experiences">
       <section class="item">
@@ -81,7 +81,7 @@ img{
 }
 
 p{
-  text-align: justify;
+  text-align: left;
   line-height: 1.8vw;
   padding-right: 2vw;
   padding-left: 2vw;

@@ -30,12 +30,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 
 export default {
-
   name: 'App',
   data() {
     return {
       showScrollButton: false,
-      arrowUpIcon: faArrowUp,
+      arrowUpIcon: faArrowUp
     }
   },
   mounted() {
