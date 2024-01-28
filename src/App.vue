@@ -48,9 +48,9 @@ export default {
   methods: {
     handleScroll() {
       const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      const whenShowButton = 200;
 
-      // Vous pouvez ajuster la valeur (par exemple, 200) pour déterminer quand afficher le bouton
-      this.showScrollButton = scrollPosition > 200;
+      this.showScrollButton = scrollPosition > whenShowButton;
     },
     scrollToTop() {
       window.scrollTo({
