@@ -64,7 +64,7 @@ nav{
 }
 
 .active{
-  color: antiquewhite;
+  color: #F97167;
 }
 
 ul{
@@ -72,7 +72,7 @@ ul{
 }
 
 a:hover{
-  color: antiquewhite;
+  color: #F97167;
   cursor: default;
 }
 
