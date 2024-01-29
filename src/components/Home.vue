@@ -4,7 +4,7 @@
       <h1 class="bold">Hugo PIEDANNA</h1>
     </div>
     <div class="right">
-      <video controls>
+      <video id="cvVideo" controls>
         <source src="../assets/CV_Video.mp4" type="video/mp4" />
       </video>
     </div>
@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style scoped>
+
+#cvVideo {
+  border-radius: 0.5rem;
+}
 
 #home {
   display: flex;
