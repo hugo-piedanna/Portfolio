@@ -82,6 +82,10 @@ export default {
   src: url('./fonts/codec-pro/CodecPro-Light.otf');
 }
 
+body{
+  min-height: 100dvh;
+}
+
 *{
   font-family: "Codec Pro", Avenir, Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -93,6 +97,11 @@ export default {
   padding: 0;
   font-size: 2vw;
   overflow-x: hidden;
+  min-width: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 .bold{

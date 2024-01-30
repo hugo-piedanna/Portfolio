@@ -35,7 +35,7 @@
           <time datetime="2023" class="timeline-item-details-year">2023</time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>Optention du BUT Informatique</p>
+            <p>Optention du DUT Informatique</p>
           </div>
         </a>
       </section>
