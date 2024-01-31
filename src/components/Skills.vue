@@ -6,19 +6,19 @@
         <p class="title">Hard Skills</p>
         <div class="cards">
           <div class="card">
-            <h3 class="title_card">Langage / Architecture</h3>
+            <h3 class="title_card">BDD / ORM</h3>
             <div class="bar">
               <div class="emptybar"></div>
               <div class="filledbar"></div>
             </div>
             <div class="body_card">
               <ul>
-                <li>PHP</li>
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-                <li>NodeJs</li>
-                <li>Java</li>
-                <li>API (REST/SOAP)</li>
+                <li>SQL</li>
+                <li>Neo4J</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+                <li>Hibernate</li>
+                <li>Hibernate</li>
               </ul>
             </div>
           </div>
@@ -44,19 +44,19 @@
             </div>
           </div>
           <div class="card">
-            <h3 class="title_card">BDD / ORM</h3>
+            <h3 class="title_card">Langage / Architecture</h3>
             <div class="bar">
               <div class="emptybar"></div>
               <div class="filledbar"></div>
             </div>
             <div class="body_card">
               <ul>
-                <li>SQL</li>
-                <li>Neo4J</li>
-                <li>MongoDB</li>
-                <li>Redis</li>
-                <li>Hibernate</li>
-                <li>Hibernate</li>
+                <li>PHP</li>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>NodeJs</li>
+                <li>Java</li>
+                <li>API (REST/SOAP)</li>
               </ul>
             </div>
           </div>

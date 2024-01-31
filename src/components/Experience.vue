@@ -77,7 +77,7 @@ img{
 }
 
 .item:hover{
-  transform: rotate(5deg);
+  transform: scale(1.1);
 }
 
 p{
@@ -87,8 +87,7 @@ p{
   padding-left: 2vw;
   font-size: 1.2vw;
   background-color: #F97167;
-  margin-bottom: 5px;
-  height: 15vw;
+  height: 12vw;
 }
 
 a{

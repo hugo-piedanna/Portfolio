@@ -5,46 +5,46 @@
     <div class="timeline">
       <section class="timeline-item">
         <a class="timeline-item-details">
-          <time datetime="2023" class="timeline-item-details-year">2020</time>
+          <time datetime="2023" class="timeline-item-details-year"><span class="infos">2020</span></time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>BAC STI2D Systèmes d'information et numérique</p>
+            <p class="infos">BAC STI2D Systèmes d'information et numérique</p>
           </div>
         </a>
       </section>
       <section class="timeline-item">
         <a class="timeline-item-details">
-          <time datetime="2023" class="timeline-item-details-year">2021</time>
+          <time datetime="2023" class="timeline-item-details-year"><span class="infos">2021</span></time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>Création d’Inovancy</p>
+            <p class="infos">Création d’Inovancy</p>
           </div>
         </a>
       </section>
       <section class="timeline-item">
         <a class="timeline-item-details">
-          <time datetime="2023" class="timeline-item-details-year">2023</time>
+          <time datetime="2023" class="timeline-item-details-year"><span class="infos">2023</span></time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>Stage chez ASSUROMIEUX</p>
+            <p class="infos">Stage chez ASSUROMIEUX</p>
           </div>
         </a>
       </section>
       <section class="timeline-item">
         <a class="timeline-item-details">
-          <time datetime="2023" class="timeline-item-details-year">2023</time>
+          <time datetime="2023" class="timeline-item-details-year"><span class="infos">2023</span></time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>Optention du DUT Informatique</p>
+            <p class="infos">Optention du DUT Informatique</p>
           </div>
         </a>
       </section>
       <section class="timeline-item">
         <a class="timeline-item-details">
-          <time datetime="2023" class="timeline-item-details-year">2023</time>
+          <time datetime="2023" class="timeline-item-details-year"><span class="infos">2023</span></time>
           <div class="timeline-item-details-marker"></div>
           <div class="timeline-item-details-desc">
-            <p>Alternance chez CEGEDIM </p>
+            <p class="infos">Alternance chez CEGEDIM </p>
           </div>
         </a>
       </section>
@@ -104,7 +104,6 @@ h1{
 
 .timeline-item-details-year{
   color: #FFF;
-  font-size: 1.3em;
   width: 15%;
 }
 
@@ -120,13 +119,20 @@ h1{
   width: 2vw;
   height: 2vw;
   border: 3px solid #FFF;
-  left: -3px;
   transition: transform .3s, background-color .3s;
 }
 
 .timeline-item-details:hover .timeline-item-details-marker{
   transform: scale(1.2);
   background-color: #FFF;
+}
+
+.timeline-item-details:hover .infos {
+  font-size: 1.05em;
+}
+
+.infos {
+  transition: .4s;
 }
 
 .timeline-item-details-desc{
