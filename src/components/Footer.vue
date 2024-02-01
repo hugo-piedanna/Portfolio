@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <img id="img_header" src="../assets/Images/transition.svg">
+    <img class="img_header" src="../assets/Images/transition.svg">
     <div id="footer">
       <div id="name">
         <h1>Hugo PIEDANNA</h1>
@@ -27,13 +27,6 @@ export default {
 
 *{
   background-color: #C62368;
-}
-
-img{
-  background-color: transparent;
-  width: 100%;
-  margin-top: 5vw;
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 #footer{

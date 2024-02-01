@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <img id="img_header" src="../assets/Images/transition.svg">
+    <img class="img_header" src="../assets/Images/transition.svg">
     <div class="section" id="aboutMe">
       <div id="title">
         <h1 class="bold">A PROPOS</h1>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <img id="img_footer" src="../assets/Images/transition.svg">
+    <img class="img_footer" src="../assets/Images/transition.svg">
   </div>
 
 </template>
@@ -41,12 +41,6 @@ img{
   display: flex;
   flex-direction: column;
   background-color: #001220;
-}
-
-#img_header{
-  background-color: transparent;
-  margin-top: 5vw;
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 h1{
@@ -92,12 +86,6 @@ p{
   border-radius: 1vw;
   position: relative;
   cursor: pointer;
-}
-
-#img_footer{
-  transform: rotate(180deg);
-  margin-bottom: 5vw;
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
 }
 
 </style>

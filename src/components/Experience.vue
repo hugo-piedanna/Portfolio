@@ -1,6 +1,6 @@
 <template>
 <div id="wrapper">
-  <img id="img_header" src="../assets/Images/transition.svg">
+  <img class="img_header" src="../assets/Images/transition.svg">
   <div class="section" id="experience">
     <h1>EXPERIENCES</h1>
     <div id="experiences">
@@ -27,7 +27,7 @@
       </section>
     </div>
   </div>
-  <img id="img_footer" src="../assets/Images/transition.svg">
+  <img class="img_footer" src="../assets/Images/transition.svg">
 </div>
 
   <Modal
@@ -182,21 +182,10 @@ a{
   margin-right: 20vw;
 }
 
-#img_header{
-  margin-top: 5vw;
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
-}
-
 h1{
   font-size: 6vw;
   background-color: #C62368;
   margin-left: 5vw;
-}
-
-#img_footer{
-  transform: rotate(180deg);
-  filter: drop-shadow(0 -6mm 0.75rem #C62368);
-  margin-bottom: 5vw;
 }
 
 </style>

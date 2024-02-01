@@ -148,4 +148,19 @@ body{
 .scroll-top-btn:hover{
   transform: scale(1.1);
 }
+
+.img_header{
+  background-color: transparent;
+  margin-top: 5vw;
+  filter: drop-shadow(0 -.7em 0.75rem #C62368);
+}
+
+
+.img_footer{
+  transform: rotate(180deg);
+  margin-bottom: 5vw;
+  filter: drop-shadow(0 -.7em 0.75rem #C62368);
+}
+
+
 </style>
