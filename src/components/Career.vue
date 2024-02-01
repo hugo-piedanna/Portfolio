@@ -1,6 +1,6 @@
 <template>
   <div class="section" id="career">
-    <h1 class="bold">Parcours</h1>
+    <h1 class="bold">PARCOURS</h1>
 
     <div class="timeline">
       <section class="timeline-item">
@@ -139,6 +139,28 @@ h1{
   width: 70%;
   float: right;
   margin-left: 10vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .infos {
+    font-size: 4vw;
+  }
+
+  .timeline-item-details-marker{
+    width: 3vw;
+    height: 3vw;
+    border: 2px solid #FFF;
+  }
+
+  .timeline-item-details{
+    height: auto;
+    line-height: 4vw;
+  }
+
+  .timeline-item-details:hover .infos {
+    font-size: 4.5vw;
+  }
+
 }
 
 </style>

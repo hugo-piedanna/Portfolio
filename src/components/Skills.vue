@@ -247,4 +247,47 @@ li {
   font-size: 1.2vw;
 }
 
+@media only screen and (max-width: 991px) {
+  #allSkills{
+    flex-direction: column;
+  }
+
+  .card {
+    height: 40vw;
+  }
+
+  .card:not(:first-child) {
+    margin-left: -25vw;
+  }
+
+  .card:hover ~ .card {
+    transform: translateX(15vw);
+  }
+
+  .title_card {
+    font-weight: 300;
+    font-size: 4vw;
+    padding: 1vw;
+  }
+
+  .bar {
+    top: 9.5vw;
+    height: 1vw;
+    width: 25vw;
+  }
+
+  .body_card {
+    top: 12vw;
+    margin-left: 2vw;
+  }
+
+  li {
+    font-size: 3vw;
+  }
+
+  .h-20:hover{
+    height: 50vw;
+  }
+}
+
 </style>

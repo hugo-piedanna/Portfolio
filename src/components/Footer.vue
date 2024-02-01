@@ -64,4 +64,22 @@ a{
   text-decoration: none;
 }
 
+@media only screen and (max-width: 991px) {
+  h1{
+    font-size: 4vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    padding: 1vw;
+  }
+
+  #mail {
+    font-size: 3vw;
+  }
+
+  #links a{
+    padding-top: 1vw;
+    font-size: 3vw;
+  }
+}
+
 </style>

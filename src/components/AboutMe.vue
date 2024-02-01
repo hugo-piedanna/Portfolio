@@ -88,4 +88,39 @@ p{
   cursor: pointer;
 }
 
+@media only screen and (max-width: 991px){
+  #picture{
+    width: 40%;
+  }
+
+  #text-container p{
+    line-height: 6vw;
+    font-size: 4vw;
+    padding: 0 0 2vw;
+  }
+
+  #text-container {
+    padding-top: 0;
+    padding-bottom: 2vw;
+  }
+
+  #image-container {
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+
+  #btn_cv {
+    font-size: 5vw;
+    padding: 2vw;
+  }
+
+  h1 {
+    padding-top: 1vw;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+}
+
 </style>

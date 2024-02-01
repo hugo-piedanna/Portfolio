@@ -128,4 +128,41 @@ export default {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 991px) {
+
+  #body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #outils{
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-right: none;
+  }
+
+  #details {
+    width: 100%;
+
+  }
+
+  #date {
+    font-size: 2rem;
+    background-color: transparent;
+  }
+
+  #modal {
+    min-height: 30dvh;
+    width: 90%;
+    padding: 2vw;
+    h2 {
+      font-weight: 600;
+      font-size: 3rem;
+      padding: 2vw;
+    }
+  }
+}
 </style>

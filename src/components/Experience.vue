@@ -188,4 +188,49 @@ h1{
   margin-left: 5vw;
 }
 
+@media only screen and (max-width: 991px) {
+  #experiences{
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item:last-child{
+    margin-right: 0;
+  }
+
+  .item:first-child{
+    margin-left: 0;
+  }
+
+  .item{
+    width: 60%;
+    border-radius: 2vw;
+    min-height: 40vw;
+    display: inline-block;
+  }
+
+  p{
+    line-height: 3.5vw;
+    font-size: 3.5vw;
+    height: auto;
+    padding-top: 5vw;
+  }
+
+  a{
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+    margin-top: 10vw;
+  }
+
+  .item img{
+    margin: 3vw 3vw 0;
+  }
+}
+
 </style>

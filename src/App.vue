@@ -9,7 +9,7 @@
     <Experience />
     <Career />
     <button v-show="showScrollButton" @click="scrollToTop" class="scroll-top-btn">
-      <font-awesome-icon :icon="arrowUpIcon" />
+      <font-awesome-icon :icon="arrowUpIcon" class="arrow-up" />
     </button>
   </main>
   <footer>
@@ -27,7 +27,6 @@ import Skills from "@/components/Skills.vue";
 import Footer from "@/components/Footer.vue";
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
 
 export default {
   name: 'App',
@@ -155,12 +154,36 @@ body{
   filter: drop-shadow(0 -.7em 0.75rem #C62368);
 }
 
-
 .img_footer{
   transform: rotate(180deg);
   margin-bottom: 5vw;
   filter: drop-shadow(0 -.7em 0.75rem #C62368);
 }
 
+@media only screen and (max-width: 991px) {
+  .scroll-top-btn {
+    padding: 1vw;
+    height: 10vw;
+    width: 10vw;
+  }
 
+  .arrow-up {
+    font-size: 3vw;
+  }
+
+  #outils ul {
+    padding-left: 3vw;
+  }
+
+  #details ul {
+    padding-left: 3vw;
+  }
+
+  #modal li {
+    padding: 1vw;
+    list-style: inside;
+    font-size: 4vw;
+    font-weight: 300;
+  }
+}
 </style>

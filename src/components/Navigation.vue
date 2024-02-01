@@ -81,4 +81,14 @@ li{
   padding-right: 26px;
 }
 
+@media only screen and (max-width: 991px) {
+  a {
+    font-size: 3vw;
+  }
+
+  li {
+    padding-right: 2vw;
+  }
+}
+
 </style>
