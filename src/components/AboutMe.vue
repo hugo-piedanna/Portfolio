@@ -91,6 +91,7 @@ p{
   border: none;
   border-radius: 1vw;
   position: relative;
+  cursor: pointer;
 }
 
 #img_footer{

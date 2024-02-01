@@ -98,6 +98,7 @@ body{
   font-size: 2vw;
   overflow-x: hidden;
   min-width: 0;
+  cursor: default;
 }
 
 *, *::before, *::after {
@@ -106,6 +107,26 @@ body{
 
 .bold{
   font-family: "Codec Pro Bold", "Codec Pro", Avenir, Helvetica, Arial, sans-serif;
+}
+
+#modal * {
+  background-color: #C62368;
+}
+
+#outils ul {
+  padding-left: 1vw;
+}
+
+#modal li {
+  background-color: transparent;
+  padding: 0.5vw;
+  list-style: inside;
+  font-size: 1.6vw;
+  font-weight: 300;
+}
+
+#modal ul {
+  background-color: #C62368;
 }
 
 .scroll-top-btn {

@@ -172,6 +172,10 @@ h1{
   margin-left: -15vw;
 }
 
+.h-20{
+  transition: .4s;
+}
+
 .h-20:hover{
   height: 30vw;
 }
@@ -221,7 +225,7 @@ h1{
 }
 
 .card:hover .filledbar {
-  width: 70%;
+  width: 100%;
   transition: 0.4s ease-out;
 }
 

@@ -2,23 +2,23 @@
 <div id="wrapper">
   <img id="img_header" src="../assets/Images/transition.svg">
   <div class="section" id="experience">
-    <h1>EXPERIENCE</h1>
+    <h1>EXPERIENCES</h1>
     <div id="experiences">
-      <section class="item">
+      <section class="item" @click="showModal('Inovancy', '<ul><li>Java</li><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li><li>NodeJS</li></ul>', '<ul><li>Express</li><li>MySQL</li></ul>', '<ul><li>Administrateur de base de données</li><li>Développement d\'application web</li><li>Développement d\'application Java</li><li>Développement d\'une application WebSocket</li></ul>', 'depuis 2021')">
         <img src="../assets/Images/inovancy.svg">
         <div>
-          <p>Inovancy est un projet fondé avec un ami. Ce projet m'a beaucoup appris en développement WEB et d'application.</p>
+          <p>Inovancy est un projet fondé avec un ami. Ce projet m'a permis d'approfondir mes connaissances en développement web.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
-      <section class="item">
+      <section class="item" @click="showModal('Stage - Assuromieux', '<ul><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li></ul>', '<ul><li>MySQL</li></ul>', '<ul><li>Développement d\'un portail web</li><li>Rédaction de compte-rendu</li><li>Relations internationales</li><li>Animation de réunions</li></ul>', 'd\'avril 2023 à juin 2023')">
         <img src="../assets/Images/assuromieux.svg">
         <div>
           <p>ASSUROMIEUX est un cabinet de courtage en assurance. Lors de ce stage j’ai appris l’utilisation de Laravel.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
-      <section class="item">
+      <section class="item" @click="showModal('Alternance - Cegedim', '<ul><li>Java</li><li>JavaScript</li></ul>', '<ul><li>Spring</li><li>AngularJS</li></ul>', '<ul><li>Jiras</li><li>Zoom</li></ul>', '<ul><li>Développement fullstack</li><li>Méthode AGILE</li><li>Relations clients</li><li>Relations internationales</li></ul>', 'de septembre 2023 à juillet 2024')">
         <img src="../assets/Images/cegedim.svg">
         <div>
           <p>Cegedim est un entreprise qui développe des logiciels pour des mutuelles. Durant mon alternance j’ai appris l’angular et spring. </p>
@@ -29,11 +29,75 @@
   </div>
   <img id="img_footer" src="../assets/Images/transition.svg">
 </div>
+
+  <Modal
+      v-show="isModalVisible"
+      @close="closeModal"
+      ref="modalComponent">
+
+    <template v-slot:title>
+      {{ this.modalTitle }}
+    </template>
+
+    <template v-slot:outils>
+      <div v-html="modalOutils"></div>
+    </template>
+
+    <template v-slot:outilsC2>
+      <div v-html="modalOutilsC2"></div>
+    </template>
+
+    <template v-slot:outilsC3>
+      <div v-html="modalOutilsC3"></div>
+    </template>
+
+    <template v-slot:details>
+      <div v-html="modalDetails"></div>
+    </template>
+
+    <template v-slot:date>
+      {{ this.modalDate }}
+    </template>
+  </Modal>
 </template>
 
 <script>
+import Modal from '@/modals/ExperienceModal.vue';
+
 export default {
   name: 'ExperienceSection',
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      isModalVisible: false,
+      modalTitle: "N/A",
+      modalOutils: "N/A",
+      modalOutilsC2: "N/A",
+      modalOutilsC3: "N/A",
+      modalDetails: "N/A",
+      modalDate: "N/A"
+    };
+  },
+  methods: {
+    showModal(title, outils, outilsC2, outilsC3, details, date) {
+      this.isModalVisible = true;
+      this.modalTitle = title;
+      this.modalOutils = outils;
+      this.modalOutilsC2 = outilsC2;
+      this.modalOutilsC3 = outilsC3
+      this.modalDetails = details;
+      this.modalDate = date
+    },
+    closeModal() {
+      const modalElement = this.$refs.modalComponent.$refs.modalContent;
+      if (modalElement && !modalElement.contains(event.target)) {
+        this.isModalVisible = false;
+      }
+    },
+  }
+
 }
 </script>
 
@@ -58,7 +122,7 @@ img{
 }
 
 .item{
-  width: 20%;
+  width: 21%;
   text-align: center;
   border-radius: 1vw;
   background-color: #F97167;
@@ -78,6 +142,7 @@ img{
 
 .item:hover{
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 p{
