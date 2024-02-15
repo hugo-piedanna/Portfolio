@@ -11,7 +11,7 @@
         </div>
         <div id="text-container">
           <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques, les activités manuelles et les parcs d'attractions. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. Actuellement à la recherche d'une alternance de 2 ans.</p>
-          <a href="./CV_Hugo_Piedanna.pdf" id="btn_cv" download>Mon CV</a>
+          <a href="./CV_Hugo_Piedanna.pdf" id="btn_cv" class="link" download>Mon CV</a>
         </div>
       </div>
     </div>

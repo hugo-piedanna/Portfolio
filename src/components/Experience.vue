@@ -4,21 +4,21 @@
   <div class="section" id="experience">
     <h1>EXPERIENCES</h1>
     <div id="experiences">
-      <section class="item" @click="showModal('Inovancy', '<ul><li>Java</li><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li><li>NodeJS</li></ul>', '<ul><li>Express</li><li>MySQL</li></ul>', '<ul><li>Administrateur de base de données</li><li>Développement d\'application web</li><li>Développement d\'application Java</li><li>Développement d\'une application WebSocket</li></ul>', 'depuis 2021')">
+      <section class="item link" @click="showModal('Inovancy', '<ul><li>Java</li><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li><li>NodeJS</li></ul>', '<ul><li>Express</li><li>MySQL</li></ul>', '<ul><li>Administrateur de base de données</li><li>Développement d\'application web</li><li>Développement d\'application Java</li><li>Développement d\'une application WebSocket</li></ul>', 'depuis 2021')">
         <img src="../assets/Images/inovancy.svg">
         <div>
           <p>Inovancy est un projet fondé avec un ami. Ce projet m'a permis d'approfondir mes connaissances en développement web.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
-      <section class="item" @click="showModal('Stage - Assuromieux', '<ul><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li></ul>', '<ul><li>MySQL</li></ul>', '<ul><li>Développement d\'un portail web</li><li>Rédaction de compte-rendu</li><li>Relations internationales</li><li>Animation de réunions</li></ul>', 'd\'avril 2023 à juin 2023')">
+      <section class="item link" @click="showModal('Stage - Assuromieux', '<ul><li>PHP</li><li>JavaScript</li></ul>', '<ul><li>Laravel</li><li>Blade</li></ul>', '<ul><li>MySQL</li></ul>', '<ul><li>Développement d\'un portail web</li><li>Rédaction de compte-rendu</li><li>Relations internationales</li><li>Animation de réunions</li></ul>', 'd\'avril 2023 à juin 2023')">
         <img src="../assets/Images/assuromieux.svg">
         <div>
           <p>ASSUROMIEUX est un cabinet de courtage en assurance. Lors de ce stage j’ai appris l’utilisation de Laravel.</p>
           <a>En savoir plus ...</a>
         </div>
       </section>
-      <section class="item" @click="showModal('Alternance - Cegedim', '<ul><li>Java</li><li>JavaScript</li></ul>', '<ul><li>Spring</li><li>AngularJS</li></ul>', '<ul><li>Jiras</li><li>Zoom</li></ul>', '<ul><li>Développement fullstack</li><li>Méthode AGILE</li><li>Relations clients</li><li>Relations internationales</li></ul>', 'de septembre 2023 à juillet 2024')">
+      <section class="item link" @click="showModal('Alternance - Cegedim', '<ul><li>Java</li><li>JavaScript</li></ul>', '<ul><li>Spring</li><li>AngularJS</li></ul>', '<ul><li>Jiras</li><li>Zoom</li></ul>', '<ul><li>Développement fullstack</li><li>Méthode AGILE</li><li>Relations clients</li><li>Relations internationales</li></ul>', 'de septembre 2023 à juillet 2024')">
         <img src="../assets/Images/cegedim.svg">
         <div>
           <p>Cegedim est un entreprise qui développe des logiciels pour des mutuelles. Durant mon alternance j’ai appris l’angular et spring. </p>

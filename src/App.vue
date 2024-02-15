@@ -97,7 +97,6 @@ body{
   font-size: 2vw;
   overflow-x: hidden;
   min-width: 0;
-  cursor: default;
 }
 
 *, *::before, *::after {
@@ -122,6 +121,10 @@ body{
   list-style: inside;
   font-size: 1.6vw;
   font-weight: 300;
+}
+
+.link {
+  cursor: pointer;
 }
 
 #modal ul {

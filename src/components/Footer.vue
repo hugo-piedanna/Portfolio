@@ -7,10 +7,10 @@
       </div>
       <div id="infos">
         <div>
-          <a id="mail" href="mailto:h.piedanna@gmail.com">h.piedanna@gmail.com</a>
+          <a class="link" id="mail" href="mailto:h.piedanna@gmail.com">h.piedanna@gmail.com</a>
         </div>
         <div id="links">
-          <p><a target="_blank" href="https://github.com/hugo-piedanna">Github</a> - <a target="_blank" href="https://www.linkedin.com/in/hugo-piedanna-a80570246/">Linkedln</a></p>
+          <p><a class="link" target="_blank" href="https://github.com/hugo-piedanna">Github</a> - <a class="link" target="_blank" href="https://www.linkedin.com/in/hugo-piedanna-a80570246/">Linkedln</a></p>
         </div>
       </div>
     </div>

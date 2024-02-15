@@ -17,7 +17,7 @@
                 <li>Neo4J</li>
                 <li>MongoDB</li>
                 <li>Redis</li>
-                <li>Hibernate</li>
+                <li>Eloquent</li>
                 <li>Hibernate</li>
               </ul>
             </div>
