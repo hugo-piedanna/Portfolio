@@ -1,36 +1,24 @@
 <template>
-  <div id="wrapper">
-    <img class="img_header" src="../assets/Images/transition.svg">
-    <div class="section" id="aboutMe">
-      <div id="title">
-        <h1 class="bold">A PROPOS</h1>
+  <div class="section" id="aboutMe">
+    <div id="content">
+      <div id="image-container">
+        <img id="picture" src="../assets/Images/avatar.jpeg">
       </div>
-      <div id="content">
-        <div id="image-container">
-          <img id="picture" src="../assets/Images/avatar.jpeg">
-        </div>
-        <div id="text-container">
-          <p>Je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musiques, les activités manuelles et les parcs d'attractions. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB. Actuellement à la recherche d'une alternance de 2 ans.</p>
-          <a href="./CV_Hugo_Piedanna.pdf" id="btn_cv" class="link" download>Mon CV</a>
-        </div>
+      <div id="text-container">
+        <p>Je m'appel PIEDANNA Hugo, je suis étudiant en 3° année de BUT Informatique. Je suis passionné par le développement, la musique et les parcs d'attractions. Je souhaite me spécialiser dans le développement WEB. Prochainement étudiant en Mastère afin de devenir Expert en développement WEB.</p>
+        <a href="./CV_Hugo_Piedanna.pdf" id="btn_cv" class="link" download>Mon CV</a>
       </div>
     </div>
-    <img class="img_footer" src="../assets/Images/transition.svg">
   </div>
-
 </template>
 
 <script>
 export default {
-  name: 'AboutMe'
+  name: 'AboutMe',
 }
 </script>
 
 <style scoped>
-
-*{
-  background-color: #C62368;
-}
 
 img{
   background-color: transparent;
@@ -46,6 +34,10 @@ img{
 h1{
   font-size: 6vw;
   margin-left: 5vw;
+}
+
+#aboutMe {
+  padding-top: 5vw;
 }
 
 #content{

@@ -1,9 +1,9 @@
 <template>
   <nav>
     <ul>
-      <li><a class="bold link nav_link active" id="btn_home" @click="scrollToSection('#home')">HOME</a></li>
-      <li><a class="bold link nav_link" id="btn_aboutMe" @click="scrollToSection('#aboutMe')">A PROPOS</a></li>
+      <li><a class="bold link nav_link active" id="btn_aboutMe" @click="scrollToSection('#aboutMe')">A PROPOS</a></li>
       <li><a class="bold link nav_link" id="btn_skills" @click="scrollToSection('#skills')">COMPETENCES</a></li>
+      <li><a class="bold link nav_link" id="btn_skillHow" @click="scrollToSection('#skillHow')">SAVOIR FAIRE</a></li>
       <li><a class="bold link nav_link" id="btn_experience" @click="scrollToSection('#experience')">EXPERIENCES</a></li>
       <li><a class="bold link nav_link" id="btn_career" @click="scrollToSection('#career')">PARCOURS</a></li>
     </ul>

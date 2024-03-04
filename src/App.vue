@@ -3,8 +3,8 @@
     <Navigation />
   </header>
   <main>
-    <Home />
     <AboutMe />
+    <SkillHow />
     <Skills />
     <Experience />
     <Career />
@@ -19,11 +19,11 @@
 
 <script>
 import Navigation from '@/components/Navigation.vue'
-import Home from '@/components/Home.vue'
+import SkillHow from '@/components/Skills.vue'
 import AboutMe from "@/components/AboutMe.vue"
 import Career from "@/components/Career.vue";
 import Experience from "@/components/Experience.vue";
-import Skills from "@/components/Skills.vue";
+import Skills from "@/components/SkillHow.vue";
 import Footer from "@/components/Footer.vue";
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -60,7 +60,7 @@ export default {
   components: {
     AboutMe,
     Navigation,
-    Home,
+    SkillHow,
     Career,
     Experience,
     Skills,

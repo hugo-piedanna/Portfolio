@@ -132,8 +132,8 @@ img{
   margin-bottom: 5vw;
 }
 
-.item:first-child{
-  margin-left: 5vw;
+.item:first-child {
+  margin-left: 1.1vw;
 }
 
 .item:last-child{
