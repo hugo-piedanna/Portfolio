@@ -8,6 +8,7 @@ import {
 } from "../ui/card";
 import { ChevronRight } from "lucide-react";
 import { LinkPreview } from "../ui/link-preview";
+import Link from "next/link";
 
 interface experience {
   title: string,
@@ -78,11 +79,11 @@ export default function Experience() {
                 ))}
               </div>
             </CardContent>
-            <button className="group-hover:blur-[0px] absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-white text-sm font-medium bg-black/70 py-2 px-4 rounded-xl">
+            <Link href={experience.website} target="_blank" className="group-hover:blur-[0px] absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-white text-sm font-medium bg-black/70 py-2 px-4 rounded-xl">
               <LinkPreview url={experience.website} className="flex items-center betw">
-                  {"Visiter le site"} <ChevronRight />
-                </LinkPreview>
-            </button>
+                {"Visiter le site"} <ChevronRight />
+              </LinkPreview>
+            </Link>
           </Card>
         ))}
       </div>

@@ -217,6 +217,7 @@ export default function Contact() {
                                     <h4 className="text-xl font-medium">{item.title}</h4>
                                 </div>
                                 <LinkPreview
+                                    
                                     url={item.link}
                                     className="mt-2 text-sm text-muted-foreground flex items-center gap-2 hover:underline underline-offset-4"
                                 >
