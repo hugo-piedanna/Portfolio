@@ -8,7 +8,6 @@ import {
 } from "../ui/card";
 import { ChevronRight } from "lucide-react";
 import { LinkPreview } from "../ui/link-preview";
-import Link from "next/link";
 
 interface experience {
   title: string,
